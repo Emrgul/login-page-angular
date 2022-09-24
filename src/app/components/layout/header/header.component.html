@@ -1,0 +1,31 @@
+<div >
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="home" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img  class="bi " src="assets/image/home.png"  width="40" height="40">
+      </a>
+
+      <ul id="liste" class="nav col-12 col-md-3 mb-2 justify-content-center mb-md-0">
+        <li><a id="bir" href="home" class="nav-link px-2 link-secondary" >Home</a></li>
+        <li><a href="home" class="nav-link px-2 link-dark">Features</a></li>
+        <li><a href="home" class="nav-link px-2 link-dark">Pricing</a></li>
+        <li><a href="home" class="nav-link px-2 link-dark">FAQs</a></li>
+        <li><a href="home" class="nav-link px-2 link-dark">About</a></li>
+      </ul>
+
+
+
+      <div id="dropdown" class="  dropdown text-end">
+        <a href="home" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+        </a>
+        <ul class="dropdown-menu text-small">
+          <li><a class="dropdown-item" href="home">New project...</a></li>
+          <li><a class="dropdown-item" href="home">Settings</a></li>
+          <li><a class="dropdown-item" href="home">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <button type="button" class="btn btn-primary me-2" (click)="signout()">logout</button>
+         
+        </ul>
+      </div>
+    </header>
+  </div>

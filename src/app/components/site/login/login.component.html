@@ -1,0 +1,27 @@
+<body class="text-center">
+    
+    <main class="form-signin w-100 m-auto">
+      
+      <form  [formGroup]="loginForm" >
+        <img class="mb-4" src="assets/image/login.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" formControlName="email" placeholder="name@example.com" required>
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" formControlName="password" placeholder="Password" required>
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <button class="w-100 btn btn-lg btn-primary" (click)="login()">Sign in</button>
+       
+      </form>
+     
+    </main>
+      </body>
+<br>
+<br>
+<br>
+<br>
